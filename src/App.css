@@ -1,19 +1,27 @@
+/* styles for app */
 .App{
-    width: 30vw;
+    width: 25vw;
     margin: 10vh auto;
+    background-color: lightgrey;
+    padding: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 3px gray inset;
 }
 
+/* styles for tracker */
 .tracker-container{
     box-sizing: border-box;
-    width: 90%;
-    height: 40vh;
+    width: 94%;
+    height: 38vh;
     margin: auto;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 10px 10px;
 }
 
+/* styles for track circle */
 .track-circle{
     background-color: white;
     width: 30vh;
@@ -24,6 +32,7 @@
     
 }
 
+/* styles for all btns */
 .btn{
 
     font-size: 25px;
@@ -34,6 +43,7 @@
 
 }
 
+/* styles for ok btn */
 .ok-btn{
     width: 12vh;
     height: 12vh;
@@ -50,8 +60,10 @@
     border-radius: 50%;
     box-sizing: border-box;
     background: transparent;
+    font-weight: bold;
 }
 
+/* styles for menu btn */
 .menu-btn{
     width: 10vh;
     height: 10vh;
@@ -68,8 +80,10 @@
     box-sizing: border-box;
     border: none;
     background: transparent;
+    font-weight: bold;
 }
 
+/* styles for nxt btn */
 .next-btn{
     width: 10vh;
     height: 10vh;
@@ -79,6 +93,7 @@
     transform: translateY(-50%);
 }
 
+/* styles for prev btn */
 .prev-btn{
     width: 10vh;
     height: 10vh;
@@ -88,6 +103,7 @@
     transform: translateY(-50%);
 }
 
+/* styles for play pause btn */
 .play-pause-btn{
     width: 10vh;
     height: 10vh;
@@ -97,12 +113,23 @@
     transform: translateX(-50%);
 }
 
+/* styles for active item */
 .active{
     background-color: rgb(0, 128, 255);
 }
 
 .active .arrow{
     visibility: visible !important;
+}
+
+
+
+/* Media queries to adjust app according to screen sizes */
+@media screen and (max-width: 1200px) {
+    .App{
+        width: 30vw;
+        margin: 10vh auto;
+    }
 }
 
 @media screen and (max-width: 700px) {

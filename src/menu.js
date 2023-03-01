@@ -1,9 +1,12 @@
 
 
-
+// Menu item
 function Menu(props){
     return (
+        // Main component holding list
         <div style={styles.listStyle} className="menu-list">
+            {/* Setting classname active if it is the curr active item
+            Styling for class active in App.css file */}
 
             <div style={styles.lstItemStyle} className={props.activeItem === "Now Playing" ? "active" : ""}>
                 <span>Now Playing</span>
@@ -33,6 +36,7 @@ function Menu(props){
     );
 }
 
+// Styles for item
 const styles = {
     listStyle: {
         width: "60%",
@@ -41,7 +45,8 @@ const styles = {
         top: 0,
         left: 0,
         backgroundColor: "white",
-        boxSizing: "border-box"
+        boxSizing: "border-box",
+        borderRadius: 10
     },
     lstItemStyle: {
         width: "100%",
@@ -52,7 +57,8 @@ const styles = {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        transition: "all 0.3s"
+        transition: "all 0.3s",
+        borderRadius: 10
     },
     arrowStyle: {
         display: "inline-block",
