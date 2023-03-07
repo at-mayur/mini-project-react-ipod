@@ -19,6 +19,24 @@ class NowPlaying extends React.Component {
         let audio = this.props.song;
         let self = this;
 
+        // fetching curr time and total duration
+        let currDurr = audio.currentTime;
+        let totalDurr = audio.duration;
+
+        // calculating % song played
+        let progress = (currDurr/totalDurr) * 100;
+
+        // Setting progress fill and progress dot position
+        let progressFill = document.getElementById("progressbar-fill");
+        let progressDot = document.getElementById("progressbar-dot");
+
+        if(progressFill!=null && progressDot!=null){
+
+            document.getElementById("progressbar-fill").style.width = progress+"%";
+            document.getElementById("progressbar-dot").style.left = progress+"%";
+
+        }
+
         // adding event listener to that element
         audio.addEventListener("timeupdate", function(){
 
