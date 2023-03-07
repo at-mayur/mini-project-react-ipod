@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38b54062.css",
+    "main.js": "/static/js/main.b4e654f5.js",
+    "static/media/NightChanges.mp3": "/static/media/NightChanges.4de984e02b5e00b727d5.mp3",
+    "index.html": "/index.html",
+    "main.38b54062.css.map": "/static/css/main.38b54062.css.map",
+    "main.b4e654f5.js.map": "/static/js/main.b4e654f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b54062.css",
+    "static/js/main.b4e654f5.js"
+  ]
+}
