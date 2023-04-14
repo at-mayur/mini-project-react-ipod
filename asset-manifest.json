@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mini-project-react-ipod/static/css/main.38b54062.css",
+    "main.js": "/mini-project-react-ipod/static/js/main.aab37177.js",
+    "static/media/NightChanges.mp3": "/mini-project-react-ipod/static/media/NightChanges.4de984e02b5e00b727d5.mp3",
+    "index.html": "/mini-project-react-ipod/index.html",
+    "main.38b54062.css.map": "/mini-project-react-ipod/static/css/main.38b54062.css.map",
+    "main.aab37177.js.map": "/mini-project-react-ipod/static/js/main.aab37177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b54062.css",
+    "static/js/main.aab37177.js"
+  ]
+}
